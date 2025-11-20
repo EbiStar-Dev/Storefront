@@ -2,6 +2,21 @@
 span,p{
     font-size: 12px;
 }
+
+:root {
+  --iphone-x-width: 375px;
+  --iphone-x-height: 812px;
+}
+
+.app-container {
+  width: var(--iphone-x-width);
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  border: 1px solid #ccc;
+  overflow-x: hidden;
+}
+
 /* End - All Style */
 .header{
     margin-top: 25px;
@@ -9,10 +24,12 @@ span,p{
 .footer{
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 375px;
+    max-width: 100%;
     background-color: #fff;
     padding: 8px 0px;
     box-shadow: 0px -5px 15px -5px #f4f4f4;
+  z-index: 1000;
 }
 /* --- Profile -> Logo */
 .logo-followers .logo{
