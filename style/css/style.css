@@ -101,4 +101,65 @@ span,p{
     object-fit: cover;
     border-radius: 8px;
 }
+
+/* --- React Actions icon */
+.react-product{
+    display: flex;
+    flex-direction: row;
+}
+.react-actions a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #848484;
+}
+.react-actions a svg{
+    margin-right: 2px;
+}
+.react-product .react-actions{
+    width: 50px;
+    margin-left: 10px;
+}
+
+/* End - React Actions icon */
+
+/* --- Add To Cart */
+.product-price{
+    line-height: 19px;
+}
+.footer .add-to-cart .btn-success{
+    border-radius: 8px;
+    min-width: 100%;
+    font-size: 18px;
+}
+.Discounted-number{
+    background-color: #dc143c;
+    color: #fff;
+    padding: 0px 4px 1px 4px;
+    border-radius: 8px;
+}
+.Discounted-price{
+    font-size: 15px;
+    color: #00000070;
+}
+.price-mine-product{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Product-count{
+    border-radius: 8px;
+    border: 1px solid #d5d5d5;
+    display: none;
+}
+
+.Product-count button{
+     padding: 5px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 8px;
+
+}
+/* End - Add To Cart */
 /* === End - Style Sample Product */
