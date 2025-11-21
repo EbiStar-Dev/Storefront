@@ -9,7 +9,7 @@ let valueNumber = 0;
 
 add_to_cart.addEventListener("click", function () {
     add_to_cart.style.display = "none";
-    Product_count.style.display = "block";
+    Product_count.style.display = "inline-block";
 
     valueNumber++;
     count_number_products.innerText = valueNumber;
@@ -51,3 +51,5 @@ Product_count_delete.addEventListener("click",function(){
         add_to_cart.style.display = "block";
     }
 })
+
+// count number products
